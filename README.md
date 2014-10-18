@@ -1,4 +1,4 @@
-hashboard
+hashgauge
 =========
 
-Simple status dashboard for the hashware API
+Simple status gauge for the hashware API
