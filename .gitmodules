@@ -1,0 +1,3 @@
+[submodule "jquery-plugin-circliful"]
+	path = jquery-plugin-circliful
+	url = git@github.com:hashware/jquery-plugin-circliful.git

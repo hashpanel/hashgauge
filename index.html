@@ -1,0 +1,34 @@
+<html>
+  <head>
+  <title>hashgauge</title>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='jquery-plugin-circliful/css/jquery.circliful.css' rel='stylesheet' type='text/css'>
+  <link href='css/hashgauge.css' rel='stylesheet' type='text/css'>
+
+  <script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+  <script src='jquery-plugin-circliful/js/jquery.circliful.min.js'></script>
+
+  </head>
+
+  <body bgcolor='white'>
+    <div id='header'>
+      <div id='capacity_header'></div>
+      <div id='performance_header'></div>
+    </div>
+    <div id='gauge'
+      data-dimension='360'
+      data-fontsize='96'
+      data-animationstep='2'
+      data-width='48'>
+    </div>
+    <div id='timeline_container'>
+      <div id='timeline_header'></div>
+      <div class='timeline_juncture'>-24h</div>
+      <div id='timeline'></div>
+      <div class='timeline_juncture'>Now</div>
+    </div>
+
+    <script src='hashgauge.js'></script>
+  </body>
+
+</html>
